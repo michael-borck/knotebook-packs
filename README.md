@@ -1,6 +1,6 @@
 # Knotebook packs
 
-Submission queue for the [Knotebook](https://github.com/michael-borck/Knotebook) store.
+Submission queue for the [Knotebook](https://github.com/michael-borck/knotebook) store.
 
 A merged submission is **not** live immediately: the maintainer reviews it, signs
 the pack, rebuilds the catalogue, and deploys the store.
@@ -30,7 +30,7 @@ the pack, rebuilds the catalogue, and deploys the store.
 
 ## Pack format
 
-See [`docs/STORE.md`](https://github.com/michael-borck/Knotebook/blob/main/docs/STORE.md)
+See [`docs/STORE.md`](https://github.com/michael-borck/knotebook/blob/main/docs/STORE.md)
 in the main repo.
 
 ## Safety
