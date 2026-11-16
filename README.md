@@ -12,6 +12,8 @@ the pack, rebuilds the catalogue, and deploys the store.
 2. Create `submissions/<pack-id>/` with:
    - `pack.knotebook.json` — the built pack (do not edit it afterwards)
    - `submission.json` — copy `templates/submission.json` and fill it in
+
+   The folder name must match the pack `id`.
 3. Validate locally:
 
    ```bash
@@ -32,6 +34,9 @@ the pack, rebuilds the catalogue, and deploys the store.
 
 See [`docs/STORE.md`](https://github.com/michael-borck/knotebook/blob/main/docs/STORE.md)
 in the main repo.
+
+Packs must be version 1, self-contained (assets and cover as `data:` URLs), and
+under 16 MB.
 
 ## Safety
 
